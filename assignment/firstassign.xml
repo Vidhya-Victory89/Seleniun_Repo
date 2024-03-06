@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="firstassign"  thread-count="5" verbose="5">
+  <test parallel="classes" name="Leaftaps">
+    <classes>
+      <class name="day9.assign9.DuplicateLead"/>
+      <class name="day9.assign9.MergeLead"/>
+      <class name="day9.assign9.EditLead"/>
+      <class name="day9.assign9.CreateLead"/>
+      <class name="day9.assign9.DeleteLead"/>
+    </classes>
+  </test> <!-- Leaftaps -->
+</suite> <!-- firstassign -->
