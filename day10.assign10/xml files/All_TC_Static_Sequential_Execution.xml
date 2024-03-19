@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" verbose="5">
+    <classes>
+      <class name="pOMrunner.TC_004_DeleteLead"/>
+      <class name="pOMrunner.TC_006_MergeLead"/>
+      <class name="pOMrunner.Tc_001_LoginCreate"/>
+      <class name="pOMrunner.TC_002_Logout"/>
+      <class name="pOMrunner.TC_005_DuplicateLead"/>
+      <class name="pOMrunner.TC_003_EditLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
